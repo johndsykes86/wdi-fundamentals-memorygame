@@ -21,6 +21,12 @@ a {
   font-size: 18px;
   text-decoration: none;
   margin: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover{
+  transition: 1s;
+  border-color: white;
 }
 
 h2 {
@@ -35,6 +41,10 @@ p {
   font-family: "Droid Serif", sans-serif;
   line-height: 26px;
   font-size: 18px;
+}
+
+img {
+  margin: 40px 8px;
 }
 
 header{
@@ -52,6 +62,35 @@ main{
   margin: 35px auto;
 }
 
-img {
-  margin: 40px 8px;
+footer{
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0d2c40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+
+.copyright{
+  float: left;
+}
+
+.message{
+  float:right;
+}
+
+.name{
+  color: #f15b31;
+  font-weight: 700;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
